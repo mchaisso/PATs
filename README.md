@@ -158,7 +158,7 @@ Descriptions:
 - TempFolder:    Temp file directory, default: ./snaketemp/
 - genelist:      BED file for genes (4- or 5-col), example file "SMNexample.bed", included.
 - blocksize:     the max sequence length used for pangenome alleles, larger will be splitted, default: 80,000, 
-- ReferencePrefix: Prefix used in reference contigs (e.g., "NC_0609" or "chr")
+- ReferencePrefix: Prefix used in reference contigs (e.g., "NC_0609" or "chr"). If you are building for human, this does not need to be changed.
 - NumPartitions: Number of partitions to divide genes (aim ~1000 genes/partition)
 ```
 

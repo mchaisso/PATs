@@ -139,7 +139,7 @@ It requires a JSON config, the Snakemake profile or wrappers will load it.
 Example JSON:
 {
   "slurm": " --account=<acct> --time 50:00:00 --partition=qcb ",
-  "QueryPath": "query_pathes_withrefs.txt",
+  "QueryPath": "query_pathes.txt_withref.txt",
   "ScriptFolder": "/path/to/PAT/scripts/",
   "TargetFolder": "groups",
   "TempFolder": "snaketemp",
